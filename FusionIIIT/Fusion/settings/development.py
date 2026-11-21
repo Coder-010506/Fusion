@@ -15,7 +15,7 @@ DATABASES = {
      'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'fusionlab',
-        'HOST': os.environ.get("DB_HOST", default='localhost'),
+        'HOST': os.environ.get("DB_HOST", default='127.0.0.1'),
         'USER': 'fusion_admin',
         'PASSWORD': 'hello123',
     }
@@ -60,8 +60,6 @@ if DEBUG:
     DEBUG_TOOLBAR_CONFIG = {
         'INTERCEPT_REDIRECTS': False,
     }
-    
-CRONJOBS = [
-]
+CRONJOBS = []
 
 CRONTAB_DJANGO_MANAGE_PATH = '/home/owlman/Desktop/Fuse/Fusion/FusionIIIT/manage.py'

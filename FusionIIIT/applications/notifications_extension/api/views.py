@@ -1,4 +1,4 @@
-# views.py
+﻿# views.py
 #
 # NOTE (as of 2026-07-31): this file's views are not called by the Fusion React
 # frontend - see `applications/notifications_extension/apps.py` for details.

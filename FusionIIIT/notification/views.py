@@ -1,4 +1,4 @@
-from django.shortcuts import render
+﻿from django.shortcuts import render
 from requests import Response
 from notifications.signals import notify
 # Create your views here.
