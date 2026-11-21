@@ -111,7 +111,6 @@ class Constants:
 		('Academic-Office-Stuffs', 'Academic office stuffs'),
 		('Academic-Courses', 'Academic courses'),
 
-		('Central-Mess', 'Central Mess'),
 		('Alumni', 'Alumni'),
 		('Hostels', 'Hostels'),
 		('PHC', 'PHC'),
